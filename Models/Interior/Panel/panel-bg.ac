@@ -7,6 +7,8 @@ OBJECT poly
 name "Panel"
 data 5
 panel
+texture "SF25_panel.png"
+texrep 1 1
 crease 45.000000
 numvert 15
 -0.879004 0.307263 -3.2e-05

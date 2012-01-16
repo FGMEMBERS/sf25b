@@ -11,7 +11,7 @@
 			<cockpit type="int">2</cockpit>
 			<model type="int">2</model>
 		</rating>
-		<aircraft-version>20120111</aircraft-version>
+		<aircraft-version>20120116</aircraft-version>
 		<flight-model>yasim</flight-model>
 		<aero>sf25b-yasim</aero>
 		<startup>
@@ -21,10 +21,9 @@
 		<view n="0">
 			<internal archive="y">true</internal>
 			<config>
-				<!-- <pitch-offset-deg>-13.0</pitch-offset-deg> -->
 				<x-offset-m archive="y">-0.225</x-offset-m> <!--Right-->
 				<y-offset-m archive="y">0.465</y-offset-m> <!--Up-->
-				<z-offset-m archive="y">-0.165</z-offset-m> <!--Back-->
+				<z-offset-m archive="y">-0.265</z-offset-m> <!--Back-->
 				<pitch-offset-deg>0</pitch-offset-deg> <!--viewangle-->
 				<default-field-of-view-deg>75</default-field-of-view-deg> <!--Zoom-->
 			</config>
@@ -43,6 +42,11 @@
 			</canopy>
 		<!-- <texture-path>./Textures</texture-path> -->
 		</model>
+		<systems>
+			<autopilot>
+				<path>Aircraft/sf25b/autopilot.xml</path>
+			</autopilot>
+		</systems>
 		<help>
 			<title>Scheibe SF-25B Falke</title>
 			<line>Vs &lt; 35 KIAS</line>
