@@ -22,7 +22,7 @@
 			<internal archive="y">true</internal>
 			<config>
 				<x-offset-m archive="y">-0.225</x-offset-m> <!--Right-->
-				<y-offset-m archive="y">0.465</y-offset-m> <!--Up-->
+				<y-offset-m archive="y">0.485</y-offset-m> <!--Up-->
 				<z-offset-m archive="y">-0.265</z-offset-m> <!--Back-->
 				<pitch-offset-deg>0</pitch-offset-deg> <!--viewangle-->
 				<default-field-of-view-deg>75</default-field-of-view-deg> <!--Zoom-->
