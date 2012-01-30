@@ -155,7 +155,7 @@
 		<object-name>Leftaileron</object-name>
 		<property>controls/flight/aileron</property>
 		<type>rotate</type>
-		<factor>45</factor>
+		<factor>30</factor>
 		<axis>
 			<x1-m>-0.069</x1-m>
 			<y1-m>-7.667</y1-m>
@@ -169,7 +169,7 @@
 		<object-name>Rightaileron</object-name>
 		<property>controls/flight/aileron</property>
 		<type>rotate</type>
-		<factor>-45</factor>
+		<factor>-30</factor>
 		<axis>
 			<x1-m>0.298</x1-m>
 			<y1-m>4.761</y1-m>
@@ -226,7 +226,7 @@
 	</animation>
 	<animation>
 		<type>rotate</type>
-		<object-name>canopyfront</object-name>
+		<object-name>Canopyfront</object-name>
 		<object-name>Canopyframe</object-name>
 		<object-name>Canopybars</object-name>
 		<property>controls/canopy/position-norm</property>
@@ -274,6 +274,93 @@
 		<axis>
 			<x>1.0</x>
 			<y>0.0</y>
+			<z>0.0</z>
+		</axis>
+	</animation>
+	<animation>
+		<type>select</type>
+		<object-name>Propeller</object-name>
+		<condition>
+			<less-than>
+				<property>engines/engine[0]/rpm</property>
+				<value>2000</value>
+			</less-than>
+		</condition>
+	</animation>
+	<animation>
+		<type>select</type>
+		<object-name>Spinningpropeller</object-name>
+		<condition>
+			<greater-than>
+				<property>engines/engine[0]/rpm</property>
+				<value>1800</value>
+			</greater-than>
+		</condition>
+	</animation>
+	<!-- Front wheel spin -->
+	<animation>
+		<type>spin</type>
+		<object-name>Frontwheel</object-name>
+		<property>gear/gear[0]/rollspeed-ms</property>
+		<factor>20</factor>
+		<center>
+			<x-m>-0.485</x-m>
+			<y-m>-0.0</y-m>
+			<z-m>-0.538</z-m>
+		</center>
+		<axis>
+			<x>0.0</x>
+			<y>-1.0</y>
+			<z>0.0</z>
+		</axis>
+	</animation>
+	<!-- Rear wheel spin -->
+	<animation>
+		<type>spin</type>
+		<object-name>Rearwheel</object-name>
+		<property>gear/gear[3]/rollspeed-ms</property>
+		<factor>30</factor>
+		<center>
+			<x-m>4.679</x-m>
+			<y-m>-0.0</y-m>
+			<z-m>0.026</z-m>
+		</center>
+		<axis>
+			<x>0.0</x>
+			<y>-1.0</y>
+			<z>0.0</z>
+		</axis>
+	</animation>
+	<!-- Side wheels spin -->
+	<animation>
+		<type>spin</type>
+		<object-name>Leftsidewheel</object-name>
+		<property>gear/gear[1]/rollspeed-ms</property>
+		<factor>20</factor>
+		<center>
+			<x-m>-0.036</x-m>
+			<y-m>-3.087</y-m>
+			<z-m>-0.587</z-m>
+		</center>
+		<axis>
+			<x>0.0</x>
+			<y>-1.0</y>
+			<z>0.0</z>
+		</axis>
+	</animation>
+	<animation>
+		<type>spin</type>
+		<object-name>Rightsidewheel</object-name>
+		<property>gear/gear[2]/rollspeed-ms</property>
+		<factor>20</factor>
+		<center>
+			<x-m>-0.036</x-m>
+			<y-m>3.087</y-m>
+			<z-m>-0.587</z-m>
+		</center>
+		<axis>
+			<x>0.0</x>
+			<y>-1.0</y>
 			<z>0.0</z>
 		</axis>
 	</animation>

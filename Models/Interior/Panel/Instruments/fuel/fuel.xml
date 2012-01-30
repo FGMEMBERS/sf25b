@@ -46,10 +46,10 @@
     <property>consumables/fuel/tank/level-gal_us</property>
     <interpolation>
       <entry><ind>  0.00 </ind><dep>  0 </dep></entry>
-      <entry><ind>  5.25 </ind><dep> 23 </dep></entry>
-      <entry><ind> 10.50 </ind><dep> 46 </dep></entry>
-      <entry><ind> 15.75 </ind><dep> 69 </dep></entry>
-      <entry><ind> 20.10 </ind><dep> 93 </dep></entry>
+      <entry><ind>  3.45 </ind><dep> 23 </dep></entry>
+      <entry><ind>  6.95 </ind><dep> 46 </dep></entry>
+      <entry><ind> 10.40 </ind><dep> 69 </dep></entry>
+      <entry><ind> 13.25 </ind><dep> 93 </dep></entry>
     </interpolation>
     <axis>
       <x> -1 </x>
