@@ -13,7 +13,7 @@ Flight model for SF25C
 		<control-setting axis="/controls/engines/engine[0]/mixture" value="1.0"/>
 		<control-setting axis="/controls/engines/engine[0]/propeller-pitch" value="1.0"/>
 	</cruise>
-	<cockpit x="0.201" y="0" z="0.51"/>
+	<cockpit x="-0.216" y="0.154" z="0.616"/>
 	<fuselage ax="1.949" ay="0" az="0.139" bx="-4.803" by="0" bz="0.294" width="1.176" taper="0.2" midpoint="0.260"/>
 	<wing x="-0.371" y="0.502" z="-0.077" taper="0.466" incidence="5.0" twist="-2.5" length="7.22" chord="1.5" sweep="-4.5" dihedral="3" camber="0.05" effectiveness="2">
 		<stall aoa="16" width="10" peak="1.5"/>

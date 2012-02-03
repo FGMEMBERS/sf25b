@@ -22,7 +22,7 @@
 				<!--Right-->
 				<x-offset-m archive="y">-0.200</x-offset-m>
 				<!--Up-->
-				<y-offset-m archive="y">0.465</y-offset-m>
+				<y-offset-m archive="y">0.565</y-offset-m>
 				<!--Back-->
 				<z-offset-m archive="y">-0.265</z-offset-m>
 				<!--viewangle-->
@@ -62,11 +62,9 @@
 				<name>j / k</name>
 				<desc>Retract / extend spoilers and apply wheel brake</desc>
 			</key>
-			<line>Caution: On the SF-25 the wheel brake is applied by pulling the spoiler lever all the way.
-			The brakes start to work at around 80% spoiler. 
-			Touching down with the spoilers fully extended on landing will result in the aircraft nosing over.</line>
-			<line>The parking brake lever will lock the spoilers + brake lever open. Pulling the brake further will
-			release the parking brake.</line>
+			<line>Caution: On the SF-25 the wheel brake is applied by pulling the spoiler lever all the way. The brakes start to work at around 80% spoiler. Touching down with the spoilers fully extended on landing will result in the aircraft nosing
+      over.</line>
+			<line>The parking brake lever will lock the spoilers + brake lever open. Pulling the brake further will release the parking brake.</line>
 		</help>
 	</sim>
 	<input>

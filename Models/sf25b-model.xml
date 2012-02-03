@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!-- 
 	Scheibe SF-25B Falke
-	Author: A. Goritsas
+	Author: A. Goritsas, V. Radnai
 -->
 <PropertyList>
 	<path>sf25b.ac</path>
@@ -37,9 +37,9 @@
 		<max-deg>20</max-deg>
 		<factor>45</factor>
 		<center>
-			<x-m>-0.979</x-m>
-			<y-m>-0.161</y-m>
-			<z-m>-0.213</z-m>
+			<x-m>-1.172</x-m>
+			<y-m>-0.145</y-m>
+			<z-m>-0.197</z-m>
 		</center>
 		<axis>
 			<x>0</x>
@@ -55,9 +55,9 @@
 		<max-deg>20</max-deg>
 		<factor>45</factor>
 		<center>
-			<x-m>-1.030</x-m>
-			<y-m>0.161</y-m>
-			<z-m>-0.213</z-m>
+			<x-m>-1.223</x-m>
+			<y-m>0.145</y-m>
+			<z-m>-0.197</z-m>
 		</center>
 		<axis>
 			<x>0</x>
@@ -109,7 +109,7 @@
 		<center>
 			<x-m>-0.696</x-m>
 			<y-m>0</y-m>
-			<z-m>-0.284</z-m>
+			<z-m>-0.240</z-m>
 		</center>
 		<axis>
 			<x>0</x>
@@ -216,7 +216,7 @@
 		<center>
 			<x-m>-0.668</x-m>
 			<y-m>-0.214</y-m>
-			<z-m>-0.276</z-m>
+			<z-m>-0.236</z-m>
 		</center>
 		<axis>
 			<x>0</x>
@@ -229,6 +229,7 @@
 		<object-name>Canopyfront</object-name>
 		<object-name>Canopyframe</object-name>
 		<object-name>Canopybars</object-name>
+		<object-name>Canopywindows</object-name>
 		<property>controls/canopy/position-norm</property>
 		<interpolation>
 			<entry>
@@ -265,7 +266,7 @@
 		<type>spin</type>
 		<object-name>Propeller</object-name>
 		<property>engines/engine[0]/rpm</property>
-		<factor>-1</factor>
+		<factor>1</factor>
 		<center>
 			<x-m>-1.949</x-m>
 			<y-m>0.0</y-m>
@@ -335,8 +336,8 @@
 	<animation>
 		<type>spin</type>
 		<object-name>Leftsidewheel</object-name>
-		<property>gear/gear[1]/rollspeed-ms</property>
-		<factor>20</factor>
+		<property>gear/gear[2]/rollspeed-ms</property>
+		<factor>50</factor>
 		<center>
 			<x-m>-0.036</x-m>
 			<y-m>-3.087</y-m>
@@ -351,8 +352,8 @@
 	<animation>
 		<type>spin</type>
 		<object-name>Rightsidewheel</object-name>
-		<property>gear/gear[2]/rollspeed-ms</property>
-		<factor>20</factor>
+		<property>gear/gear[1]/rollspeed-ms</property>
+		<factor>50</factor>
 		<center>
 			<x-m>-0.036</x-m>
 			<y-m>3.087</y-m>
