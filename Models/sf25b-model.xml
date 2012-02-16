@@ -37,7 +37,7 @@
 		<max-deg>20</max-deg>
 		<factor>45</factor>
 		<center>
-			<x-m>-1.172</x-m>
+			<x-m>-1.138</x-m>
 			<y-m>-0.145</y-m>
 			<z-m>-0.197</z-m>
 		</center>
@@ -55,7 +55,7 @@
 		<max-deg>20</max-deg>
 		<factor>45</factor>
 		<center>
-			<x-m>-1.223</x-m>
+			<x-m>-1.189</x-m>
 			<y-m>0.145</y-m>
 			<z-m>-0.197</z-m>
 		</center>
