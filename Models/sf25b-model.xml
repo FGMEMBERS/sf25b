@@ -24,9 +24,9 @@
 			<z>1</z>
 		</axis>
 		<center>
-			<x-m>4.760</x-m>
+			<x-m>4.747</x-m>
 			<y-m>0.0</y-m>
-			<z-m>0.764</z-m>
+			<z-m>0.944</z-m>
 		</center>
 	</animation>
 	<animation>
@@ -155,14 +155,14 @@
 		<object-name>Leftaileron</object-name>
 		<property>controls/flight/aileron</property>
 		<type>rotate</type>
-		<factor>30</factor>
+		<factor>-30</factor>
 		<axis>
-			<x1-m>-0.069</x1-m>
-			<y1-m>-7.667</y1-m>
-			<z1-m>0.337</z1-m>
-			<x2-m>0.298</x2-m>
-			<y2-m>-4.761</y2-m>
-			<z2-m>0.166</z2-m>
+			<x1-m>0.371</x1-m>
+			<y1-m>-4.847</y1-m>
+			<z1-m>0.147</z1-m>
+			<x2-m>-0.014</x2-m>
+			<y2-m>-7.729</y2-m>
+			<z2-m>0.332</z2-m>
 		</axis>
 	</animation>
 	<animation>
@@ -171,26 +171,26 @@
 		<type>rotate</type>
 		<factor>-30</factor>
 		<axis>
-			<x1-m>0.298</x1-m>
-			<y1-m>4.761</y1-m>
-			<z1-m>0.166</z1-m>
-			<x2-m>-0.069</x2-m>
-			<y2-m>7.667</y2-m>
-			<z2-m>0.337</z2-m>
+			<x1-m>0.371</x1-m>
+			<y1-m>4.847</y1-m>
+			<z1-m>0.147</z1-m>
+			<x2-m>-0.014</x2-m>
+			<y2-m>7.729</y2-m>
+			<z2-m>0.332</z2-m>
 		</axis>
 	</animation>
 	<animation>
 		<object-name>Leftspeedbrake</object-name>
 		<type>rotate</type>
-		<factor>-90</factor>
+		<factor>90</factor>
 		<property>controls/flight/spoilers</property>
 		<axis>
-			<x1-m>-0.088</x1-m>
-			<y1-m>-3.231</y1-m>
-			<z1-m>0.213</z1-m>
-			<x2-m>-0.023</x2-m>
-			<y2-m>-2.141</y2-m>
-			<z2-m>0.162</z2-m>
+			<x1-m>0.054</x1-m>
+			<y1-m>-2.160</y1-m>
+			<z1-m>0.129</z1-m>
+			<x2-m>-0.031</x2-m>
+			<y2-m>-3.272</y2-m>
+			<z2-m>0.183</z2-m>
 		</axis>
 	</animation>
 	<animation>
@@ -199,12 +199,12 @@
 		<factor>-90</factor>
 		<property>controls/flight/spoilers</property>
 		<axis>
-			<x1-m>-0.023</x1-m>
-			<y1-m>2.141</y1-m>
-			<z1-m>0.162</z1-m>
-			<x2-m>-0.088</x2-m>
-			<y2-m>3.231</y2-m>
-			<z2-m>0.213</z2-m>
+			<x1-m>0.054</x1-m>
+			<y1-m>2.160</y1-m>
+			<z1-m>0.129</z1-m>
+			<x2-m>-0.031</x2-m>
+			<y2-m>3.272</y2-m>
+			<z2-m>0.183</z2-m>
 		</axis>
 	</animation>
 	<animation>
@@ -230,6 +230,7 @@
 		<object-name>Canopyframe</object-name>
 		<object-name>Canopybars</object-name>
 		<object-name>Canopywindows</object-name>
+		<object-name>Canopywindowsback</object-name>
 		<property>controls/canopy/position-norm</property>
 		<interpolation>
 			<entry>
@@ -242,9 +243,9 @@
 			</entry>
 		</interpolation>
 		<center>
-			<x-m>-0.905</x-m>
+			<x-m>-0.886</x-m>
 			<y-m>0.0</y-m>
-			<z-m>0.355</z-m>
+			<z-m>0.368</z-m>
 		</center>
 		<axis>
 			<x>0.0</x>
@@ -305,7 +306,7 @@
 		<property>gear/gear[0]/rollspeed-ms</property>
 		<factor>20</factor>
 		<center>
-			<x-m>-0.485</x-m>
+			<x-m>-0.453</x-m>
 			<y-m>-0.0</y-m>
 			<z-m>-0.538</z-m>
 		</center>
@@ -339,7 +340,7 @@
 		<property>gear/gear[2]/rollspeed-ms</property>
 		<factor>50</factor>
 		<center>
-			<x-m>-0.036</x-m>
+			<x-m>-0.038</x-m>
 			<y-m>-3.087</y-m>
 			<z-m>-0.587</z-m>
 		</center>
@@ -355,7 +356,7 @@
 		<property>gear/gear[1]/rollspeed-ms</property>
 		<factor>50</factor>
 		<center>
-			<x-m>-0.036</x-m>
+			<x-m>-0.038</x-m>
 			<y-m>3.087</y-m>
 			<z-m>-0.587</z-m>
 		</center>
