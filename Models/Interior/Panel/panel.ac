@@ -5,8 +5,8 @@ OBJECT world
 kids 1
 OBJECT poly
 name "Panel"
-data 9
-panel.002
+data 5
+panel
 crease 80.000000
 numvert 21
 -0.88 0.119839 0.335854
