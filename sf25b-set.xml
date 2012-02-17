@@ -10,7 +10,7 @@
 			<cockpit type="int">2</cockpit>
 			<model type="int">3</model>
 		</rating>
-		<aircraft-version>20120130</aircraft-version>
+		<aircraft-version>20120222</aircraft-version>
 		<flight-model>yasim</flight-model>
 		<aero>sf25b-yasim</aero>
 		<startup>
@@ -43,6 +43,7 @@
 				<canopy-switch type="int">2</canopy-switch>
 			</canopy>
 		</model>
+		<!-- <systems include="Aircraft/sf25b/Systems/electrical.xml"> -->
 		<systems>
 			<autopilot>
 				<path>Aircraft/sf25b/Systems/autopilot.xml</path>
@@ -103,9 +104,10 @@
 		<sf25b>
 			<file>Aircraft/sf25b/Nasal/sf25b.nas</file>
 			<file>Aircraft/sf25b/Nasal/sf25b-electrical.nas</file>
+			<file>Aircraft/sf25b/Nasal/fluids.nas</file>
 			<file>Aircraft/sf25b/Nasal/spoilers.nas</file>
 			<file>Aircraft/sf25b/Nasal/ilec-sc7.nas</file>
-			<file>Aircraft/ASK13/Nasal/wool-thread.nas</file>
+			<file>Aircraft/sf25b/Nasal/wool-thread.nas</file>
 		</sf25b>
 	</nasal>
 </PropertyList>
