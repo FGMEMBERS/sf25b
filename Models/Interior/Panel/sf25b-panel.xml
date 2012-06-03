@@ -166,7 +166,7 @@
 	<!-- Comm radio -->
 	<model>
 		<name>kx165-1</name>
-		<path>Aircraft/pa28-161/Models/radio_stack/kx165-1.xml</path>
+		<path>Aircraft/sf25b/Models/radio_stack/kx165-1.xml</path>
 		<offsets>
 			<x-m> -0.008 </x-m>
 			<y-m>  0.130 </y-m>
